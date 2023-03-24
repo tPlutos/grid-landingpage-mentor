@@ -1,0 +1,122 @@
+@media(max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    main {
+        padding-top: 50px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .logo img {
+        width: 80%;
+    }
+
+    nav ul li {
+        padding: 0px 8px;
+    }
+
+    .start-page {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .start-text p {
+        padding: 0px 30px;
+        padding-top: 20px;
+    }
+
+    .details {
+        grid-template-columns: 1fr;
+        padding-top: 150px;
+        row-gap: 10px;
+    }
+
+    .details-content p {
+        padding: 13px 94px;
+    }
+
+    .how-works {
+        grid-template-columns: 1fr;
+        padding-left: 40px;
+    }
+
+    .howworks-text {
+        padding-left: 20px;
+    }
+
+    .howworks-text h1 {
+        padding-top: 50px;
+    }
+
+    .details-image img {
+        height: 150px;
+    }
+
+    .get-early {
+        width: 90%;
+        padding: 50px 100px;
+        z-index: 10;
+    }
+
+    .get-early h3 {
+        font-size: 34px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+
+    .card {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    footer {
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .address {
+        grid-column: 1;
+        grid-row: 1;
+        padding-left: 20px;
+    }
+
+    .contact {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .footer-links {
+        grid-column: 1;
+        grid-row: 2;
+        padding-top: 50px;
+    }
+
+    .social {
+        grid-column: 2;
+        grid-row: 2;
+        padding-top: 50px;
+    }
+
+    .started-email {
+        width: 90%;
+    }
+
+    .started-button {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .footer-links-inner ul li {
+        padding: 2px 35px;
+    }
+}
